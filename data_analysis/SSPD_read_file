@@ -12,7 +12,6 @@ file_dc = []
 for file in file_list:
     if file.find('dc') != -1:
         file_ID = file[0:file.find('_')]
-        file_dc.append([file, file_ID])
     else:
         pass
 print(file_dc)
